@@ -1,6 +1,8 @@
 # Product Sentiment Analysis
 Tong Zhao, tzhao2@nd.edu
+
 Paul Fortin, pfortin@nd.edu
+
 Course project for CSE60437 with Professor Dong Wang.
 
 ## Description
