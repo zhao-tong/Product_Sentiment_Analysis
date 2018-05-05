@@ -12,5 +12,7 @@ A tool to get the sentiment trend on Twitter for any inputed keyword.
 
 ## Reference
 -[GetOldTweets](https://github.com/Jefferson-Henrique/GetOldTweets-python)
+
 -[VaderSentiment](https://github.com/cjhutto/vaderSentiment)
+
 -[Preprocessor](https://pypi.org/project/tweet-preprocessor/)
