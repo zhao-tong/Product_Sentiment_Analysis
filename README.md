@@ -25,7 +25,7 @@ python generater.py last_week Trump
 python generater.py last_month Trump
 ``` 
 
-- Get the trend for keyword Trump for the last *n* of *m* day intervals.
+- Get the trend for keyword Trump for the last *n* of *m*-day intervals.
 ``` 
 python generater.py recent Trump m n
 ```   
