@@ -4,7 +4,9 @@ Paul Fortin, pfortin@nd.edu
 Course project for CSE60437 with Professor Dong Wang.
 
 ## Description
-A tool to get the sentiment trend on Twitter for any inputed keyword. Note: the python version used for this product is 3.6.4.
+A tool to get the sentiment trend on Twitter for any inputed keyword. 
+
+Note: the python version used for this product is 3.6.4.
 
 ## Components
 - **API:** The API for this project.
