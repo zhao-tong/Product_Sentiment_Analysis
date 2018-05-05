@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Product Sentiment Analysis</title>
+</head>
+<body>
+    <header>
+        <h1>Product Sentiment Analysis.</h1>
+    </header>
+    <form method=post action="">{% csrf_token %}
+    <table>
+      {% for field in form %}
+        <tr>
+        <td>{{ field.label }}</td>
+        <td>{{ field }}</td>
+        <td>{{ field.errors }}</td>
+        <td></td>
+        </tr>
+      {% endfor %}
+    </table>
+    <p><input type=submit value=Generate></form></p>
+
+    <p>
+    {% if result != None %}
+    {% load static %}
+    <img src="{% static 'tmp.png' %}" alt="Result Plot" width=500>
+    {% endif %}
+    </p>
+
+    <footer>
+        <p>Authors: Tong Zhao, Paul Fortin</p>
+        <p>Address: University of Notre Dame, Notre Dame, Indiana, 46556, USA</p>
+        <p>Contact: {tzhao2, pfortin}@nd.edu</p>
+        <img src="{% static 'plot/images/academic_mark/PNG/ND_mark_blue_S.png' %}" alt="Notre Dame Academic Mark">
+    </footer>
+</body>
+</html>
