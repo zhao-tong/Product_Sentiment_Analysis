@@ -13,6 +13,7 @@ Note: the python version used for this product is 3.6.4.
 ## Components
 - **API:** The API for this project.
 - **Website:** A Django based webserver that utilized the API.
+- **Backup:** All of our original codes before the API was built and all of the twitter data we used for this project.
 
 ## Examples of API usage in terminal
 - Get the trend for keyword Trump for the last week.
